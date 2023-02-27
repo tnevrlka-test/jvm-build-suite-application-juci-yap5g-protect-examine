@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-ipsb
+  namespace: jvm-build-wumg-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:eec76e92b4cedf22d0573bfe153b1604b3fb830030cec7d099993fea85dfebb6
+        name: container-image
+        resources: {}
+status: {}
