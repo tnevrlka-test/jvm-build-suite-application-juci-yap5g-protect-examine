@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: jvm-build-suite-component-ipsb
     app.kubernetes.io/part-of: jvm-build-suite-application-juci
-  name: jvm-build-suite-componentsz3z
+  name: jvm-build-suite-componentaae3
   namespace: jvm-build-wumg-tenant
 spec:
   port:

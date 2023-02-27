@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-ipsb
     spec:
       containers:
-      - image: quay.io/rh_ee_tnevrlka/test-images:d5ec3b8f5edd4154addea6f0fa943ef6
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:eec76e92b4cedf22d0573bfe153b1604b3fb830030cec7d099993fea85dfebb6
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
